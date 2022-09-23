@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+   function changeColor(color){
+        document.getElementById("demo").style.color = String(color.id);
+    }
+</script>
+</head>
+<body align=center>
+
+<h1 id="demo">My First JavaScript</h1>
+<p>Click on below buttons to change color of Text.</p>
+
+
+<input type="radio" id="red" name="color" onclick="changeColor(this)" align=center>Red</input>
+<input type="radio" id="green" name="color"  value="Green" onClick="changeColor(this)">Green</input>
+<input type="radio" id="blue" name="color" value="Blue" onClick="changeColor(this)">Blue</input>
+
+
+</body>
+</html>
