@@ -6,15 +6,17 @@ import org.junit.Before;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-public class ClaculatorTest {
+public class CalculatorTest {
     Calculator c;
 
     @Before
     public void setUp() throws Exception{
+        c=new Calculator();
 
     }
     @After
     public void tearDown() throws Exception{
+        c=null;
 
     }
     @Test
