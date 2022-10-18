@@ -25,6 +25,6 @@ public class ClaculatorTest {
     @Test
     public void testSquare()
     {
-        assertEquals(215,c.square(15));
+        assertEquals(225,c.square(15));
     }
 }
